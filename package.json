@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "tsc-watch --onSuccess \"node dist/index.js\" ",
 		"build": "tsc",
-		"start": "node dist/index.js"
+		"start": "npm run build && node dist/index.js",
+		"init": "npm i -D -s"
 	},
 	"keywords": [],
 	"author": "Angel Jesus",
